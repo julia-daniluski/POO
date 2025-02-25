@@ -7,7 +7,7 @@ class Aluno { //modelo para criar alunos/pessoas
     }
     estudar = () => console.log (`${this.nome} está estudando.`)
     anos = () => console.log (`A ${this.nome} tem ${this.idade} anos. `)
-    feliz = () => console.log (`A ${this.nome} tem ${this.idade} está feliz.`)
+    feliz = () => console.log (`A ${this.nome} tem ${this.idade} anos e está feliz.`)
 }
 
 //podemos criar vários alunos sem repetir o código
