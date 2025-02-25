@@ -6,15 +6,18 @@ class Aluno { //modelo para criar alunos/pessoas
         this.idade = idade;
     }
     estudar = () => console.log (`${this.nome} está estudando.`)
-    anos = () => console.log (`Ela tem ${this.idade} anos. `)
-    feliz = () => console.log (`A ${this.nome} está feliz.`)
+    anos = () => console.log (`A ${this.nome} tem ${this.idade} anos. `)
+    feliz = () => console.log (`A ${this.nome} tem ${this.idade} está feliz.`)
 }
 
 //podemos criar vários alunos sem repetir o código
 
 const Ray = new Aluno("Ray" , 17)
+const Zani = new Aluno("Zani" , 17)
+const Lais = new Aluno("Lais" , 16)
+
 
 console.log(Ray.nome.idade)
 Ray.estudar();
-Ray.anos();
-Ray.feliz();
+Zani.anos();
+Lais.feliz();
