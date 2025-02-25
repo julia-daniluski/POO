@@ -7,3 +7,4 @@ Representação de algo do mundo real. (Atributo: Propriedade (nome). Ação: M�
 
 # Pilares:
 Abstração, encapsulamento, herança, polimorfismo. 
+O encapsulamento protege informações privadas evitando mudanças acidentais. Exemplo: um aluno tem uma nota secreta.
