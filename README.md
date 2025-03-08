@@ -82,3 +82,9 @@ O polimorfismo é um pilar da POO que é utilizado para que duas classes façam 
 Se pensarmos na superclasse Animal, estabelecemos o método “emitir o som do objeto animal”, ou seja, os objetos pato, cachorro e gato, por exemplo, devem emitir um som ao comando do método, mas cada um fará isso de um jeito diferente.
 
 Agora observe no fluxo apresentado, mais um exemplo de que o polimorfismo foi este processo de implementar métodos (mover).
+
+## Linguagens utilizadas na orientação ao objeto:
+
+* JAVA (O diferencial da linguagem Java é ser multiplataforma, ou seja, um mesmo programa pode funcionar perfeitamente em Windows, Linux, Android e iOS. Atualmente ela é muito utilizada em desenvolvimento da Internet da Coisas (IoT), aplicações para celular, além de jogos on-line, aplicativos para Android, páginas da Internet, documentos interativos etc.);
+*  C++ (é uma linguagem de programação multiparadigma, onde podemos desenvolver um mesmo programa orientado a objetos (POO) ou procedural (linguagem estruturada));
+*   C # ou C Sharp (A C# foi criada com base na linguagem C++, mas inseriu também alguns percursos de outras linguagens, como a Java e Object Pascal. A C# é uma linguagem multiparadigma e de tipagem (que não realiza conversões automaticamente, não permitindo que um mesmo dado seja tratado como se fosse de outro tipo).);
