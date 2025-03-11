@@ -3,7 +3,7 @@
 class pessoa { //modelo para criar pessoa
     constructor(nome, idade) {
         if(this.constructor === pessoa) {
-            throw new error("Imploro para você: não crie isso de novo pelo amor de Deus.")    }
+            throw new Error("Imploro para você: não crie isso de novo pelo amor de Deus.")    }
         this.nome = nome; // significam "este objeto"
         this.idade = idade;
 }
@@ -21,6 +21,15 @@ class professor extends pessoa{
     ensinar = () => 
         console.log(`Olá, me chamo ${this.nome}, sou professor(a) no SENAI.`);
 }
+
+
+/*
+try {
+    const p = new pessoa("Carlos", 40); // Isso vai gerar um erro
+} catch (e) {
+    console.log(e.message); // Isso vai capturar e exibir a mensagem de erro
+}
+    */
 
 // criar objeto
 const Lais = new aluno("Lais" , 16)
