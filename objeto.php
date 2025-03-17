@@ -4,7 +4,7 @@ $aluno = [
     "idade" => 17,
 
     "estudar" => function() use (&$aluno){
-        echo "{$aluno['nome']} está estudando."; 
+        echo "{$aluno['nome']} tem {$aluno['idade']} anos e está estudando."; 
     }
 
 ];
