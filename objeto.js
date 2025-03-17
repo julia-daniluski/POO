@@ -5,7 +5,7 @@ const aluno = {
     idade: 17,
 
     estudar: () => console.log
-    (`${aluno.nome} está estudando.`)
+    (`${aluno.nome} está estudando.`) // ação
 };
 
 console.log(aluno.nome);
