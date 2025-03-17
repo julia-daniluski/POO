@@ -88,3 +88,13 @@ Agora observe no fluxo apresentado, mais um exemplo de que o polimorfismo foi es
 * JAVA (O diferencial da linguagem Java é ser multiplataforma, ou seja, um mesmo programa pode funcionar perfeitamente em Windows, Linux, Android e iOS. Atualmente ela é muito utilizada em desenvolvimento da Internet da Coisas (IoT), aplicações para celular, além de jogos on-line, aplicativos para Android, páginas da Internet, documentos interativos etc.);
 *  C++ (é uma linguagem de programação multiparadigma, onde podemos desenvolver um mesmo programa orientado a objetos (POO) ou procedural (linguagem estruturada));
 *   C # ou C Sharp (A C# foi criada com base na linguagem C++, mas inseriu também alguns percursos de outras linguagens, como a Java e Object Pascal. A C# é uma linguagem multiparadigma e de tipagem (que não realiza conversões automaticamente, não permitindo que um mesmo dado seja tratado como se fosse de outro tipo).);
+
+  <hr>
+
+  Na parte "HERANÇA.PHP", o código foi feito para mostrar a herança na tela mas por meio php ao invés de js:
+
+
+https://github.com/user-attachments/assets/85ae4509-1fb6-4620-b918-00058bc10ead
+
+
+
