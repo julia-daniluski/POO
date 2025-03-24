@@ -3,9 +3,9 @@
 class Pessoa {
     // Propriedade
     public $nome;
-
+    public $idade;
     // Construtor
-    public function __construct($nome) {
+    public function __construct($nome, $idade) {
         $this->nome = $nome;
     }
 
@@ -32,8 +32,8 @@ class Professor extends Pessoa {
 }
 
 // Criar objetos
-$lais = new Aluno("Lais");
-$thalita = new Professor("Thalita");
+$lais = new Aluno("Lais", 18);
+$thalita = new Professor("Thalita", 89);
 
 // Chamar os métodos dos objetos
 $lais->apresentar();

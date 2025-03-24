@@ -1,3 +1,5 @@
+<?php
+
 // evita repetiçãode classes
 
 class pessoa { //modelo para criar pessoa
@@ -42,3 +44,9 @@ Lais.estudar();
 Alexya.ensinar();
 
 ?>
+
+
+
+
+
+
