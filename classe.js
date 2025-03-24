@@ -1,3 +1,4 @@
+
 // criando a classe aluno
 class Aluno { //modelo para criar alunos/pessoas
     constructor(nome, idade) {
