@@ -18,7 +18,7 @@ class Aluno {
     }
 }
 
-$aluno1 = new Aluno ("Dani", 1209, 0.5 );
+$aluno1 = new Aluno ("Dani", 1209, -3 );
 echo $aluno1->nome;
 echo $aluno1->verNota();
 ?>
