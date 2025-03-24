@@ -63,9 +63,10 @@
     // Criando uma instância de Aluno
     $aluno1 = new Aluno("Wally", 18, 3);
     $aluno2 = new Aluno("Rhonda", 17, 10);
+    $aluno3 = new Aluno("Maddy", 17, 9.9);
     $professor1 = new Professor("Dr. Martin", 38, 0);
-    $professor2 = new Professor("Sr. Anderson", 42, 0);
-
+    $professor2 = new Professor("Sr. Manfredo", 42, 0);
+    $professor3 = new Professor("Sr. Anderson", 43, 0);
     echo $aluno1->nome . "<br>";
     $aluno1->falar();
     echo "Nota do aluno: " . $aluno1->verNota() . "<br>";
@@ -80,6 +81,13 @@
     echo $professor2->nome . "<br>";
     $professor2->falar();
     $professor2->ensinar();
+    echo $aluno3->nome . "<br>";
+    $aluno3->falar();
+    echo "Nota do aluno: " . $aluno3->verNota() . "<br>";
+    $aluno3->aprender();    
+    echo $professor3->nome . "<br>";
+    $professor3->falar();
+    $professor3->ensinar();
 
     ?>
 
