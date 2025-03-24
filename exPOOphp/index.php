@@ -51,14 +51,14 @@
     // Classe Aluno que estende Pessoa
     class Aluno extends Pessoa {
         public function aprender() {
-            echo "{$this->nome} tirou {$this->verNota()} na última prova de {$this->materia}.<br>";
+            echo "Eu, {$this->nome}, tirei {$this->verNota()} na última prova de {$this->materia}.<br>";
         }
     }
 
     // Classe Professor que estende Pessoa
     class Professor extends Pessoa {
         public function ensinar() {
-            echo "{$this->nome} passou uma prova de recuperação para sua turma.<br>";
+            echo "Passei uma prova de recuperação para minha turma, dou aula de {$this->materia}.<br>";
         }
     }
     
@@ -69,7 +69,7 @@
     $professor1 = new Professor("Dr. Martin", 38, 0, "quimica");
     $professor2 = new Professor("Sr. Manfredo", 42, 0, "inglês");
     $professor3 = new Professor("Sr. Anderson", 43, 0, "Literatura");
-    echo $aluno1->nome . "<br>";
+    echo $aluno1->nome ."<br>";
     $aluno1->falar();
     echo "Nota do aluno: " . $aluno1->verNota() . "<br>";
     $aluno1->aprender();    
