@@ -27,12 +27,14 @@
         public $nome;
         public $idade;
         private $nota;
+        public $materia;
 
         // Construtor
-        public function __construct($nome, $idade, $nota) {
+        public function __construct($nome, $idade, $nota, $materia) {
             $this->nome = $nome;
             $this->idade = $idade;
             $this->nota = $nota;
+            $this->materia = $materia;
         }
 
         // Método para a pessoa se apresentar
@@ -49,24 +51,24 @@
     // Classe Aluno que estende Pessoa
     class Aluno extends Pessoa {
         public function aprender() {
-            echo "{$this->nome} tirou {$this->verNota()} na última prova.<br>";
+            echo "{$this->nome} tirou {$this->verNota()} na última prova de {$this->materia}.<br>";
         }
     }
 
     // Classe Professor que estende Pessoa
     class Professor extends Pessoa {
         public function ensinar() {
-            echo "{$this->nome} passou uma prova de recuperação.<br>";
+            echo "{$this->nome} passou uma prova de recuperação para sua turma.<br>";
         }
     }
     
     // Criando uma instância de Aluno
-    $aluno1 = new Aluno("Wally", 18, 3);
-    $aluno2 = new Aluno("Rhonda", 17, 10);
-    $aluno3 = new Aluno("Maddy", 17, 9.9);
-    $professor1 = new Professor("Dr. Martin", 38, 0);
-    $professor2 = new Professor("Sr. Manfredo", 42, 0);
-    $professor3 = new Professor("Sr. Anderson", 43, 0);
+    $aluno1 = new Aluno("Wally", 18, 0, "fisica");
+    $aluno2 = new Aluno("Rhonda", 17, 10, "inglês");
+    $aluno3 = new Aluno("Maddy", 17, 9.9, "Literatura");
+    $professor1 = new Professor("Dr. Martin", 38, 0, "quimica");
+    $professor2 = new Professor("Sr. Manfredo", 42, 0, "inglês");
+    $professor3 = new Professor("Sr. Anderson", 43, 0, "Literatura");
     echo $aluno1->nome . "<br>";
     $aluno1->falar();
     echo "Nota do aluno: " . $aluno1->verNota() . "<br>";
